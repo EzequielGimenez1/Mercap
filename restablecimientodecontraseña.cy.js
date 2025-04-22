@@ -1,5 +1,5 @@
 describe('Login Test - Restablecer Contraseña', () => {
-    it('debería redirigir a la página de restablecimiento de contraseña', () => {
+    it('redirigir a la página de restablecimiento de contraseña', () => {
       cy.visit('https://mercapabbaco.com/') // 
       cy.get('a').contains('Forgot password?').click() // restablecimiento de contraseña
   
